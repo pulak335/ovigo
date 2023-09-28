@@ -1,0 +1,15 @@
+.optionContainer {
+    position: absolute;
+    right: -10px;
+    top: 29px;
+    z-index: 10;
+}
+
+.optionContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.optionContainer::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: linear-gradient(#105d36, #26de81);
+}

@@ -1,0 +1,52 @@
+{
+  "explore": [
+    {
+
+      "name": "Sundarban",
+      "place": "Khulna, Bangladesh",
+      "image": "/images/exp-8.png"
+    },
+    {
+
+      "name": "Sajek, Vally",
+      "place": "Bandarban, Bangladesh",
+      "image": "/images/exp-7.png"
+    },
+    {
+
+      "name": "St Martin Island",
+      "place": "CX Bajar, Bangladesh",
+      "image": "/images/exp-6.png"
+    },
+    {
+
+      "name": "Jaflong",
+      "place": "Sylhet, Bangladesh",
+      "image": "/images/exp-5.png"
+    },
+    {
+
+      "name": "Nilgiri",
+      "place": "Bandorban, Bangladesh",
+      "image": "/images/exp-4.png"
+    },
+    {
+
+      "name": "COX's Bazer",
+      "place": "Chottogram, Bangladesh",
+      "image": "/images/exp-3.png"
+    },
+    {
+
+      "name": "Kuakata",
+      "place": "Chittagong, Bangladesh",
+      "image": "/images/exp-2.png"
+    },
+    {
+
+      "name": "Zero Point",
+      "place": "Mawa, Bangladesh",
+      "image": "/images/exp-1.png"
+    }
+  ]
+}

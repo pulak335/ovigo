@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f5f4f4b0;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+.tabContainerWrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tabContainerWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.icon-bg {
+  border-radius: 50%;
+  background-color: #cff1ef;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+  display: block;
+  color: #136f40;
+}
+
+.icon-bg:hover {
+  background-color: #26de81;
+  color: #fff;
+}
+
+.icon-bg .icon {
+  font-size: 18px;
+}
+
+.shop-card-1 {
+  padding: 51px 20px 64px 24px;
+  background-color: #d9d9d9;
+}
+
+.shop-card-2 {
+  background-image: url(../assets/home/shop-2bg.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  padding: 51px 20px 64px 24px;
+}
+
+.special-radius {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #081634;
+  background-color: #fff;
+  border-radius: 24px 24px 0px 24px;
+  padding: 18px 20px 18px 20px;
+}
+
+.swiper {
+  padding: 2rem;
+}
+
+.swiper .res-slide {
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 350px;
+  border: 2px solid hsl(210, 100%, 50%);
+  border-radius: 20px;
+}
+
+.swiper-nav-btns button {
+  width: 60px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: hsl(210, 100%, 50%);
+  color: #fff;
+  margin: 0px 0.5rem;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+
+/* /**banner css */
+
+.banner {
+  background-image: url(../assets/home/banner.png);
+  width: 100%;
+  background-position: center;
+  height: auto;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.exploreBanner {
+  background-image: url(../assets/exploreBanner.png);
+  width: 100%;
+  background-position: center;
+  height: 100%;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.booking-form-container {
+  position: absolute;
+  bottom: -25%;
+  left: 50%;
+  padding: 20px 30px;
+  left: 50%;
+  width: max-content;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.custom-selected-tab {
+  background-color: #26de81;
+  color: #fff;
+  border: 1px solid #26de81;
+  outline: none;
+}
+
+.mainBtn {
+  @apply bg-[#FFBF19] py-2 px-5 text-center text-[#101828] text-sm font-bold rounded-full;
+}
+
+.smooth {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.btn {
+  @apply bg-[#26DE81] hover:bg-[#0FB8B1] duration-300 text-white py-3 cursor-pointer rounded-md font-semibold;
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
+@media only screen and (max-width: 630px) {
+  .booking-form-container {
+    width: 100%;
+    transform: translateX(0%);
+    z-index: 1;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ticket-book-container {
+    position: inherit;
+    width: 100%;
+  }
+
+  .booking-form-container {
+    position: inherit;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .ticket-book-container {
+    position: inherit;
+    width: 100%;
+  }
+
+  .booking-form-container {
+    position: inherit;
+  }
+}

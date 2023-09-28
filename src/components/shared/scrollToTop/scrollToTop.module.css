@@ -1,0 +1,27 @@
+.scrollToTopButton {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  right: 80px;
+  bottom: 60px;
+  z-index: 100;
+}
+.scrollToTopButton svg {
+  color: #fbfbfb;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .scrollToTopButton {
+    right: 20px;
+    bottom: 60px;
+    z-index: 100;
+  }
+}
